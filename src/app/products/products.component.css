@@ -1,0 +1,52 @@
+.name {
+  position: absolute;
+  left: 30%;
+  font-size: 25px;
+  font-weight: bold;
+}
+.cash {
+  position: absolute;
+  left: 30%;
+  margin-top: 5%;
+  font-size: 18px;
+  font-weight: bold;
+}
+.weight {
+  position: absolute;
+  margin-top: 10%;
+  left: 30%;
+}
+.quantity {
+  position: absolute;
+  left: 30%;
+  margin-top: 15%;
+}
+.main {
+  height: 350px;
+  box-shadow: 0 2px 4px 2px solid rgb(175, 16, 16) !important;
+}
+.cart {
+  position: absolute;
+  left: 80%;
+}
+.whishlist {
+  position: absolute;
+  left: 85%;
+}
+.search {
+  float: right;
+}
+li {
+  display: inline-block;
+}
+.error {
+  position: fixed;
+  z-index: 20000;
+  top: 20%;
+  left: 50%;
+  height: auto;
+  width: 300px;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}

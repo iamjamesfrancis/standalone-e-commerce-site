@@ -1,0 +1,34 @@
+<link
+  rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+/>
+<body>
+  <br /><br /><br />
+  <br />
+
+  <p class="badge badge-dark p-3">Whishlist({{ itemNum }})</p>
+  <div [hidden]="items">
+    <img
+      class="empty"
+      src="https://www.lovecalculator.com/dist/images/lovecalculator-heart.svg"
+      alt=""
+    />
+    <span class="empty-title">No items in Your Whishlist</span>
+  </div>
+  <div class="jumbotron container main" *ngFor="let i of list">
+    <div class="name text-dark">
+      {{ i.name }}
+    </div>
+    <div class="cash text-dark">&#x20B9; {{ i.price }}</div>
+    <div class="weight text-dark"><span>Weight: </span>{{ i.weight }}</div>
+
+    <img src="{{ i.src }}" alt="" style="width: 100px" />
+
+    <img
+      (click)="deleteItem(i.id)"
+      class="image"
+      src="https://cdn.iconscout.com/icon/free/png-256/delete-844-902124.png"
+      alt=""
+    />
+  </div>
+</body>

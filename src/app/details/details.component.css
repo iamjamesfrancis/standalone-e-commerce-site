@@ -1,0 +1,43 @@
+.buttons {
+  position: fixed;
+  left: 60%;
+  top: 80%;
+}
+li {
+  display: inline;
+}
+.name {
+  position: absolute;
+  left: 60%;
+  top: 25%;
+  font-size: 30px;
+  font-weight: bold;
+}
+.price {
+  position: absolute;
+  left: 60%;
+  top: 40%;
+  font-size: 30px;
+  font-weight: bold;
+}
+.quantity {
+  position: absolute;
+  left: 60%;
+  top: 70%;
+  font-size: 30px;
+  font-weight: bold;
+}
+.weight {
+  position: absolute;
+  left: 60%;
+  top: 55%;
+  font-size: 30px;
+  font-weight: bold;
+}
+.model {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  font-size: 20px;
+  user-select: none;
+}

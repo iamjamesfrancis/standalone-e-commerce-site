@@ -1,0 +1,50 @@
+body {
+  letter-spacing: 1.5px;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+}
+.logo {
+  border-radius: 50%;
+}
+.search {
+  float: right !important;
+}
+.link {
+  margin-left: 20px;
+  text-decoration: none;
+}
+nav {
+  box-shadow: 0 1px 5px 1px grey;
+  position: relative;
+  z-index: 2;
+}
+.cards {
+  position: relative;
+  top: 10px;
+  border: 1px solid rgba(160, 160, 160, 0.795);
+  width: 20rem;
+  height: auto;
+  float: left;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.history {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.search-bar {
+  position: absolute;
+  z-index: 200;
+  top: 15%;
+  left: 0%;
+
+  width: 100%;
+}
+.search-items {
+  padding: 20px;
+}
+.items {
+  display: inline;
+}

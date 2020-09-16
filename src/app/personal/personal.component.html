@@ -1,0 +1,72 @@
+<link
+  rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+/>
+
+<div class="main container">
+  <div class="inline">
+    <li class="m-2 list-items personal-info list inline">
+      Personal Information
+    </li>
+    <li
+      class="m-2 list-items text-info inline"
+      style="cursor: pointer"
+      (click)="edit()"
+    >
+      Edit
+    </li>
+  </div>
+  <div>
+    <li class="list-items inline">
+      <label for="firstname"
+        >Firstname
+        <input
+          type="text"
+          class="form-control field"
+          id="firstname"
+          name="firstname"
+          [(ngModel)]="firstName"
+          value="{{ firstName }}"
+          [class.field]="property"
+          [disabled]="bool"
+        />
+      </label>
+    </li>
+    <li class="inline">
+      <label for="lastname"
+        >Lastname
+        <input
+          type="text"
+          class="form-control field"
+          id="lastname"
+          name="lastname"
+          [(ngModel)]="lastName"
+          value="{{ lastName }}"
+          [class.field]="property"
+          [disabled]="bool"
+        />
+      </label>
+    </li>
+
+    <br />
+    <li class="inline">
+      <label for="email"
+        >Email
+        <input
+          type="email"
+          class="form-control field"
+          id="email"
+          name="email"
+          [(ngModel)]="email"
+          value=" {{ email }}"
+          [class.field]="property"
+          [disabled]="bool"
+        />
+      </label>
+    </li>
+    <br />
+    <li class="inline">
+      <div class="save btn btn-primary" (click)="save()">Save</div>
+    </li>
+  </div>
+</div>

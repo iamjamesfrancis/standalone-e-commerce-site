@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+.webpage {
+  display: none;
+  color: rgb(218, 55, 55) !important;
+}
+@media only screen and (max-width: 600px) {
+  app-root {
+    display: none;
+  }
+  .webpage {
+    display: inline;
+    color: red;
+    text-align: center;
+  }
+}

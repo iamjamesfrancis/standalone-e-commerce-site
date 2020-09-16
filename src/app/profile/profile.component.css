@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@400;700&display=swap");
+
+.sidenav {
+  position: absolute;
+  left: 1%;
+  width: 23%;
+  height: 400px;
+  box-shadow: 0px 0.5px 1px 0.5px grey;
+  margin-top: 10%;
+}
+.link {
+  text-decoration: none;
+  background-color: aqua;
+}
+.list {
+  list-style: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.items {
+  margin-left: 20px;
+}
